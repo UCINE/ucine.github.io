@@ -1,0 +1,237 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(../img/admin.jpeg);
+    background-size: cover;
+}
+
+.parent
+{
+    position: relative;
+    margin: -500px auto;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0,0.4);
+    box-shadow: 10px 10px 100px #000;
+    
+}
+
+.con > p
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+.con > input
+{
+    position: relative;
+    left: 25px;
+    top: 40px;
+    width: 400px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+    
+}
+
+.con > span
+{
+    position: absolute;
+    left: 35px;
+    top: 110px;
+    display: inline-block;
+    width: 400px;
+    height: 32px; 
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Anton', sans-serif;
+    display: none;
+    margin-bottom: 0;
+    
+    
+}
+
+.con > input:nth-of-type(2)
+{
+    position: relative;
+    top: 80px;
+}
+
+#pass
+{
+    position: absolute;
+    top: 180px;
+    margin: 0;
+    margin-left: -45px;
+    width: 400px;
+    height: 32px; 
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Anton', sans-serif;
+    display: none;
+    color: #000;
+    padding: 0
+}
+.con .icon
+{
+    position: relative;
+    top: 40px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.con .icon1
+{
+    position: relative;
+    top: 80px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.con #link
+{
+    position: relative;
+    top:90px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.con #link:hover
+{
+    text-decoration: underline;
+    color:#000;
+}
+
+.login
+{
+    position: relative;
+    top: 110px;
+    left: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    line-height: 40px;
+    display: inline-block;
+    width: 400px;
+    height: 40px;
+    font-family: 'Anton', sans-serif;
+    transition: all 0.5s
+ }
+.login:hover
+{
+    background-color: rgba(0, 0, 0, 0.8);  
+    color: #fff;
+    
+}
+
+
+.Google
+{
+    position: relative;
+    top: 239px;
+    left: 0px;
+    width: 446px;
+    height: 50px;
+    border-radius:  0 0 12px 12px;
+    background-color: #e74c3c;
+    cursor: pointer;
+    
+}
+
+.Google > .google
+{
+    position: absolute;
+    left: 0px;
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0,0.4);
+    padding-left: 10px;
+    padding-right: 55px;
+    border-radius:  0 0 0 12px;
+    transition: all 1s;
+    
+}
+
+
+
+.Google > p
+{
+    position: absolute;
+    left: 160px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+}
+
+.facebook
+{
+    position: relative;
+    top: 139px;
+    left: 0px;
+    width: 446px;
+    height: 50px;
+    background-color: #2121e8;
+    cursor: pointer;
+}
+
+.facebook > .face
+{
+    position: relative;
+    left: 0px;
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0,0.4);
+    padding-left: 10px;
+    padding-right: 55px;
+    transition: all 1s;
+    
+}
+
+
+
+.facebook > p
+{
+    position: absolute;
+    left: 160px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
