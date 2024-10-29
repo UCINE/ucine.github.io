@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetSec Authentication</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #36393f;
+            color: #ffffff;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: #2f3136;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            max-width: 500px;
+            width: 90%;
+        }
+        
+        .auth-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #5865f2;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+            margin-top: 1rem;
+        }
+        
+        .auth-button:hover {
+            background-color: #4752c4;
+        }
+        
+        .description {
+            margin: 1rem 0;
+            color: #b9bbbe;
+            line-height: 1.5;
+        }
+        
+        .steps {
+            text-align: left;
+            margin: 1.5rem 0;
+            color: #b9bbbe;
+        }
+        
+        .steps li {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LeetSec Server Authentication</h1>
+        <p class="description">To join the server, you'll need to verify your student status through 42 Intranet.</p>
+        <div class="steps">
+            <ol>
+                <li>Click the authentication button below</li>
+                <li>Log in with your 42 account</li>
+                <li>Authorize the application</li>
+                <li>You'll be automatically added to the Discord server with proper roles</li>
+            </ol>
+        </div>
+        <a href="{{link}}" class="auth-button">Authenticate with 42 Intranet</a>
+    </div>
+</body>
+</html>
